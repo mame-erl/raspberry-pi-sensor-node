@@ -6,7 +6,7 @@ program_lux="tsl2591_dyna.py"
 logpfad="$pfad"
 logdatei="2016.txt"
 # API Key for thingspeak is kept separate
-source apikeys.sh
+source /home/pi/programme/apikeys.sh
 urlthing="https://api.thingspeak.com/update?api_key=$apithing&"
 
 ergebnis="$(sudo $pfad$program_temp)"
