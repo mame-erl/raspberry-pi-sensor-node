@@ -1,10 +1,10 @@
+# coding: utf8
 # 
 #	TSL2591 Ansteuerung in Python
 #	am Raspberry Pi über I2C
 #	
 #	2016-03-20 Erstellt von Markus Meier
 #
-
 import tsl2591
 
 INTEGRATIONTIME_100MS = 0x00
