@@ -13,9 +13,6 @@ GAIN_HIGH = 0x20  # high gain (428x)
 GAIN_MAX = 0x30  # max gain (9876x)
 
 tsl = tsl2591.Tsl2591()  # initialize
-#full, ir = tsl.get_full_luminosity()  # read raw values (full spectrum and ir spectrum)
-#lux = tsl.calculate_lux(full, ir)  # convert raw values to lux
-#print lux, full, ir
 
 tsl.set_gain(GAIN_MED)
 tsl.set_timing(INTEGRATIONTIME_200MS)
