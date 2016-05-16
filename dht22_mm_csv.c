@@ -4,7 +4,7 @@
  *	Based on the existing dht11.c
  *	Amended by technion@lolware.net
  *
- *  2016-02-17 Changed by Markus Meier for usage in thesis
+ *  2016-03-17 Changed by Markus Meier for usage in thesis
  */
 
 #include <wiringPi.h>
