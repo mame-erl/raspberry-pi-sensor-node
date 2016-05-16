@@ -112,10 +112,19 @@ int main (int argc, char *argv[])
     exit(EXIT_FAILURE);
   }
 
-	   delay(2000);
-	   while (read_dht22_dat() == 0) 
-	   {
-	      delay(1000); // wait 1sec to refresh
-       }
+
+  delay(2000);
+
+/* 
+   eigentlicher Programmaufruf - solange kein erfolgreicher
+   Messversuch zustande gekommen ist, versuchen.
+   Erfolg wird durch read_dht22_dat == 1 signalisiert
+*/
+
+  while (read_dht22_dat() == 0) 
+  {
+     delay(1000); // wait 1sec to refresh
+  }
   return 0;
+
 }
