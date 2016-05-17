@@ -1,4 +1,0 @@
-Lux=0 full=65535 ir=65535
-Lux=-101433 full=10677 ir=65141
-Lux=0.00 full=65535 ir=25735
-Lux=-0.02 full=1 ir=1
